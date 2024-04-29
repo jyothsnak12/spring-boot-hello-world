@@ -5,7 +5,7 @@ FROM openjdk:11-jre-slim
 WORKDIR /usr/src/app
 
 # Copy the compiled Java application JAR file into the container
-COPY target/my-java-application.jar ./my-java-application.jar
+COPY target/SpringBootHelloWorld-1.0-SNAPSHOT.jar ./SpringBootHelloWorld-1.0-SNAPSHOT.jar
 
 # Set the entry point for the container
 ENTRYPOINT ["java", "-jar", "my-java-application.jar"]
