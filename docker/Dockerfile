@@ -9,4 +9,4 @@ COPY target/SpringBootHelloWorld-1.0-SNAPSHOT.jar ./SpringBootHelloWorld-1.0-SNA
 EXPOSE 8080
 
 # Set the entry point for the container
-ENTRYPOINT ["java", "-jar", "my-java-application.jar"]
+ENTRYPOINT ["java", "-jar", "SpringBootHelloWorld-1.0-SNAPSHOT.jar"]
